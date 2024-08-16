@@ -1,0 +1,64 @@
+import "mojo_miner/tokenizer.🔥"
+
+struct TokenCounter(Tokenizer): 
+    var _tokens: List[Int64] = tokens
+    var _token_count: In64 = 0
+
+    def __ini__(inout seff):
+        self.
+
+    @always_inline
+    @staticmethod
+    def _token_count() -> Int64:
+        return _token_count
+
+    @always_inline
+    @staticmethod
+    def _tokens() -> List[Int64]:
+        return _tokens
+
+    @always_inline
+    @staticmethod
+    def _set_tokens(tokens: List[Int64]):
+        _tokens = tokens
+
+    @always_inline
+    @staticmethod
+    def _set_token_count(token_count: Int64):
+        _token_count = token_count
+
+    @always_inline
+    @staticmethod
+    def _increment_token_count():
+        _token_count += 1
+
+    @always_inline
+    @staticmethod
+    def _decrement_token_count():
+        _token_count -= 1
+
+    @always_inline
+    @staticmethod
+    def _add_token(token: Int64):
+        _tokens.append(token)
+
+    @always_inline
+    @staticmethod
+    def _remove_token(token: Int64):
+        _tokens.remove(token)
+
+    @always_inline
+    @staticmethod
+    def _clear_tokens():
+        _tokens = []
+
+    @always_inline
+    @staticmethod
+    def _get_tokens() -> List[Int64]:
+        return _tokens
+
+    @always_inline
+    @staticmethod
+    def _count_tokens(_tokens: List[Int64]) -> Int64:
+        for i in range(len(_tokens))
+}

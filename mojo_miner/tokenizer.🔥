@@ -1,0 +1,14 @@
+trait Tokenizer(Movable):
+    def is_end_of_text(self, val: Int64) -> Bool:
+        ...
+
+    def encode(
+        self,
+        input_string: List[String],
+        bos: Optional[String] = None,
+        eos: Optional[String] = None,
+    ) -> List[Int64]:
+        ...
+
+    def decode(inout self, output_tokens: List[Int64]) -> String:
+        ...
